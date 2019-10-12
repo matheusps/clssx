@@ -3,7 +3,7 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![CircleCI](https://circleci.com/gh/matheusps/clssx.svg?style=svg)](https://circleci.com/gh/matheusps/clssx)
 
-Just got tired of copying this functions thoughout my `react` projects and decided to turn then into a simple library.
+I just got tired of copying these functions throughout my projects and decided to turn then into a simple library.
 
 ### Installing from npm
 
