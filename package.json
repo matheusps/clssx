@@ -27,7 +27,9 @@
     "test:coverage": "npm run test --collectCoverage",
     "test:watch": "jest --coverage --watch",
     "test:prod": "npm run lint && npm run test -- --no-cache",
-    "codecov": "npm run test:coverage && codecov -f coverage/*.json"
+    "codecov": "npm run test:coverage && codecov -f coverage/*.json",
+    "release": "np",
+    "prepublishOnly": "npm run build"
   },
   "jest": {
     "transform": {
@@ -68,6 +70,7 @@
     "jest": "^23.6.0",
     "jest-config": "^23.6.0",
     "lodash.camelcase": "^4.3.0",
+    "np": "^5.1.1",
     "prettier": "^1.14.3",
     "prompt": "^1.0.0",
     "replace-in-file": "^3.4.2",
