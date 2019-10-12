@@ -16,7 +16,7 @@ $ npm install clssx
 ```
 
 ```javascript
-import clssx from 'clssx'
+import { csx, ssx } from 'clssx'
 ```
 
 ### Develop
