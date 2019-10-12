@@ -27,4 +27,3 @@ jobs:
 
       - run: yarn test:prod
       - run: yarn build
-      - run: yarn codecov
