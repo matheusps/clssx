@@ -27,8 +27,7 @@
     "test:coverage": "npm run test --collectCoverage",
     "test:watch": "jest --coverage --watch",
     "test:prod": "npm run lint && npm run test -- --no-cache",
-    "codecov": "npm run test:coverage && codecov -f coverage/*.json",
-    "precommit": "lint-staged"
+    "codecov": "npm run test:coverage && codecov -f coverage/*.json"
   },
   "jest": {
     "transform": {
