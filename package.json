@@ -1,7 +1,7 @@
 {
   "name": "clssx",
   "version": "1.1.0",
-  "description": "",
+  "description": "Simple utilities that join strings and objects conditionally",
   "keywords": [],
   "main": "dist/clssx.umd.js",
   "module": "dist/clssx.es5.js",
