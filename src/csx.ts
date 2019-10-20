@@ -4,15 +4,14 @@ const concat = (a: string, b: string): string => (!!a && !!b ? a + SPACE + b : a
 
 const reducer = (classNames: string, className: cls): string => {
   switch (typeof className) {
-    case 'undefined': 
+    case 'undefined':
       return classNames
     case 'string':
       return concat(classNames, className)
     case 'number':
       return concat(classNames, `${className}`)
     default: {
-      //because typeof null will be 'object'
-      if(className == null) {
+      if (className === null) {
         return classNames
       }
       const isTruthy = (property: string) =>
@@ -29,6 +28,6 @@ const reducer = (classNames: string, className: cls): string => {
 
 const csx = (...classNames: Array<cls>): string => classNames.reduce(reducer, '')
 
-type cls = string | number | { [key: string]: boolean } | undefined | null;
+type cls = string | number | { [key: string]: boolean } | undefined | null
 
 export default csx
