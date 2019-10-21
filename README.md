@@ -3,7 +3,7 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![CircleCI](https://circleci.com/gh/matheusps/clssx.svg?style=svg)](https://circleci.com/gh/matheusps/clssx) [![Greenkeeper badge](https://badges.greenkeeper.io/matheusps/clssx.svg)](https://greenkeeper.io/)
 
-I just got tired of copying these functions throughout my projects and decided to turn then into a simple library.
+I just got tired of copying these functions throughout my projects and decided to turn them into a simple library.
 
 ### Installing from npm
 
@@ -45,7 +45,7 @@ csx(1, { 'flex padding-ns': true }, { grow: true }, 'margin-xl') // => '1 flex p
 
 #### ssx
 
-It receives any amount of `objects` or `arrays with lenght 2` and returns a single `object` containing the allowed rulesets.
+It receives any amount of `objects` or `arrays with length 2` and returns a single `object` containing the allowed rulesets.
 
 `type ssx = (...rulesets: Array<Object, boolean>) => Object`
 
@@ -55,8 +55,8 @@ Ex:
 ssx({}) // => {}
 ssx({ padding: 1 }) // => {padding: 1}
 ssx({ padding: 1 }, { display: 'flex' }) // => {padding: 1, display='flex'}
-ssx({ padding: 1 }, [{ display: 'flex' }: false]) // => {padding: 1}
-ssx({ padding: 1 }, [{ display: 'flex' }: false], [{ display: 'inline' }: true]) // => {padding: 1, display: 'inline'}
+ssx({ padding: 1 }, [{ display: 'flex' }, false]) // => {padding: 1}
+ssx({ padding: 1 }, [{ display: 'flex' }, false], [{ display: 'inline' }, true]) // => {padding: 1, display: 'inline'}
 ```
 
 ### Scripts cheatset
