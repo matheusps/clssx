@@ -1,7 +1,7 @@
 # clssx
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![CircleCI](https://circleci.com/gh/matheusps/clssx.svg?style=svg)](https://circleci.com/gh/matheusps/clssx)
+[![CircleCI](https://circleci.com/gh/matheusps/clssx.svg?style=svg)](https://circleci.com/gh/matheusps/clssx) [![Greenkeeper badge](https://badges.greenkeeper.io/matheusps/clssx.svg)](https://greenkeeper.io/)
 
 I just got tired of copying these functions throughout my projects and decided to turn then into a simple library.
 
